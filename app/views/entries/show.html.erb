@@ -1,0 +1,6 @@
+<%= render @entry %>
+<div>
+  <%= link_to "Edit", edit_entry_path(@entry) %> |
+  <%= link_to "Back", entries_path %>
+  <%= button_to "Delete", @entry, method: :delete %>
+</div>
