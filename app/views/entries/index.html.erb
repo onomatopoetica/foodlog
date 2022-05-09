@@ -1,12 +1,27 @@
 <% content_for :title do %>
   Food Log &ndash; <%= DateTime.now %>
 <% end %>
-<div id="entries">
-  <% @entries.each do |entry| %>
-    <%= render entry %>
-    <p>
-      <%= link_to "Show this entry", entry %>
-    </p>
-    <br>
-  <% end %>
-</div>
+<div class="columns mt-6 is-centered"></div>
+<% @entries.each do |entry| %>
+  <div class="column is-one-quarter">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title"> <%= entry.meal_type %></p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          <p><span class="has-text-weight-bold"><%= entry.calories %></span> calories </p>
+          <p><span class="has-text-weight-bold"><%= entry.proteins %></span> proteins </p>
+          <p><span class="has-text-weight-bold"><%= entry.carbohydrates %></span> carbohydrates </p>
+          <p><span class="has-text-weight-bold"><%= entry.fats %></span> fats </p>
+          <p class="italic"> Logged <%= time_ago_in_words(entry.created_at) %> ago </p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <%= link_to 'Show', entry, class: "card-footer-item" %>
+        <%= link_to 'Edit', edit_entry_path(entry), class: "card-footer-item"  %>
+        <%= link_to 'Delete', entry, method: :delete, data: { confirm: 'Are you sure?'}, class: "card-footer-item"  %>
+      </div>
+    </div>
+  </div>
+<% end %>
