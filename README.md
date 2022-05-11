@@ -39,7 +39,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * Ensure you have [Node.js](https://nodejs.org), [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Ruby On Rails](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails) installed on your machine. 
 
-* `rails new foodlog` to install Rails for the project.
+* Create a new Rails app by running the `rails new` command after installing Rails. E.g., In your terminal, type `rails new foodlog` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 * All Yarn packages required for this application are already listed as dependencies in the `Gemfile`. Check to see whether you have Yarn and its version with `yarn -v`. If you need to install yarn, run the command `npm install --global yarn` command in your terminal. 
 
