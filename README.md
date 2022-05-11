@@ -41,7 +41,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * Create a new Rails app by running the `rails new` command after installing Rails. E.g., In your terminal, type `rails new foodlog` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-* All Yarn packages required for this application are already listed as dependencies in the `Gemfile`. Check to see whether you have Yarn and its version with `yarn -v`. If you need to install yarn, run the command `npm install --global yarn` command in your terminal. 
+* All dependencies required for this application are already listed in the `Gemfile`. Check to see whether you have Yarn and its version with `yarn -v`. If you need to install yarn, run the command `npm install --global yarn` command in your terminal. 
 
 * Install [Bundler](https://bundler.io/) if you don't have it `gem install bundler` or `sudo gem install bundler` if you don't have the required permissions. Then you can run `bundle init` to create your Gemfile and `bundle install`. 
 
