@@ -37,7 +37,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 #### Install Dependencies 
 
-* Ensure you have [Node.js](https://nodejs.org) and [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed on your machine. 
+* Ensure you have [Node.js](https://nodejs.org), [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Ruby On Rails](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails) installed on your machine. 
 
 * `rails new foodlog` to install Rails for the project.
 
