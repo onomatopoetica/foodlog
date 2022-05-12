@@ -21,6 +21,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 * [Bundler.io](https://bundler.io/v2.3/man/bundle-install.1.html)
 * [RubyGuides - Documentation About Ruby Gems](https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/)
 * [Rubocop - Formatter](https://www.mashupgarage.com/playbook/rails/rubocop.html) This resource covers recommended guidelines from the [Ruby Style Guide](https://github.com/rubocop/ruby-style-guide). 
+* [The Rails Command Line](https://guides.rubyonrails.org/command_line.html) You can get a list of rails commands available to you, which will often depend on your current directory, by typing rails --help.
     
 #### Technologies used in this project include:
 * Ruby
@@ -39,7 +40,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * Ensure you have [Node.js](https://nodejs.org), [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Ruby On Rails](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails) installed on your machine. 
 
-* Create a new Rails app by running the `rails new` command after installing Rails. E.g., In your terminal, type `rails new foodlog` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+* Create a new Rails app by running the `rails new` *(and the project name)* command after installing Rails. E.g., In your terminal, type `rails new foodlog` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 * All dependencies required for this application are already listed in the `Gemfile`. Check to see whether you have Yarn and its version with `yarn -v`. If you need to install yarn, run the command `npm install --global yarn` command in your terminal. 
 
@@ -56,7 +57,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * View [Project Links](#Project-Links) above.
 
-### _Return to [Table of Contents](#Table-of-Contents)_
+<!-- ### _Return to [Table of Contents](#Table-of-Contents)_ -->
     
 ## License
 #### Distributed under the MIT License. See `LICENSE` for more information.
