@@ -41,6 +41,8 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 * Node
 * SQLite3
 * Yarn
+
+### _Return to [Table of Contents](#Table-of-Contents)_
     
 ## Installation
  
@@ -69,7 +71,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * View [Project Links](#Project-Links) above.
 
-<!-- ### _Return to [Table of Contents](#Table-of-Contents)_ -->
+### _Return to [Table of Contents](#Table-of-Contents)_
     
 ## License
 #### Distributed under the MIT License. See `LICENSE` for more information.
