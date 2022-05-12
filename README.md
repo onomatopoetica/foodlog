@@ -1,7 +1,19 @@
 ![Github followers](https://img.shields.io/github/followers/onomatopoetica?color=blue&logo=GitHub&style=flat)  ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/foodlog)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/foodlog?color=yellow)  ![GitHub language count](https://img.shields.io/github/languages/count/onomatopoetica/foodlog?color=orange&logo=GitHub&style=flat)  ![](https://img.shields.io/badge/language-ruby-red/?style=flat&logo=ruby&logoColor=red&color=red) ![GitHub license](https://img.shields.io/badge/license-MIT-yellow) ![Gem (including prereleases)](https://img.shields.io/gem/v/rails?include_prereleases&logo=ruby&logoColor=red&color=red) 
 
+# Food Log 
+
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/foodlog)
+
+    
+## Table of Contents
+1. [About The Project](#About-The-Project)
+1. [Project Links](#Project-Links)
+1. [Demo](#Demo)
+1. [Getting Started](#Getting-Started)
+1. [Installation](#Installation)
+1. [Usage](#Usage)
+1. [License](#License)
 
 ## About The Project
 Food Log is a dynamic tracker for meals built with Ruby 3.0 and Ruby on Rails 7.0.3. 
@@ -21,7 +33,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 * [Bundler.io](https://bundler.io/v2.3/man/bundle-install.1.html)
 * [RubyGuides - Documentation About Ruby Gems](https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/)
 * [Rubocop - Formatter](https://www.mashupgarage.com/playbook/rails/rubocop.html) This resource covers recommended guidelines from the [Ruby Style Guide](https://github.com/rubocop/ruby-style-guide). 
-* [The Rails Command Line](https://guides.rubyonrails.org/command_line.html) You can get a list of rails commands available to you, which will often depend on your current directory, by typing rails --help.
+* [The Rails Command Line](https://guides.rubyonrails.org/command_line.html) You can get a list of rails commands available to you, which will often depend on your current directory, by typing `rails --help`.
     
 #### Technologies used in this project include:
 * Ruby
