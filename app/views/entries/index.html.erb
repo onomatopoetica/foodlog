@@ -3,7 +3,7 @@
 <% end %>
 <div class="columns is-centered">
   <% @entries.each do |entry| %>
-    <div class="column mt-6 is-one-third">
+    <div class="column mt-6 is-one-quarter">
       <div class="card">
         <header class="card-header">
           <p class="card-header-title"> <%= entry.meal_type %></p>
@@ -25,3 +25,7 @@
       </div>
     </div>
   <% end %>
+</div>
+<div class="columns is-centered mt-6">
+  <%= link_to "View All Entries", archives_index_path, class: "button is-link is-outlined is-centered" %>
+</div>
