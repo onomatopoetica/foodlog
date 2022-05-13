@@ -1,5 +1,6 @@
 <% content_for :title do %>
-  Food Log &ndash; <%= DateTime.now.to_fs(:nice_date) %>
+  <h3 class="has-text-weight-bold is-size-3">
+    Food Log &ndash; <%= DateTime.now.to_fs(:nice_date) %></h3>
 <% end %>
 <div class="columns is-centered">
   <% @entries.each do |entry| %>
@@ -20,7 +21,7 @@
         <div class="card-footer">
           <%= link_to 'Show', entry, class: "card-footer-item" %>
           <%= link_to 'Edit', edit_entry_path(entry), class: "card-footer-item"  %>
-          <%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?'}, class: "card-footer-item"  %>
+          <%= link_to 'Destroy', entry, method: :destroy, data: { confirm: 'Are you sure?'}, class: "card-footer-item"  %>
         </div>
       </div>
     </div>

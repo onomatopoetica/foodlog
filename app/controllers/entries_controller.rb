@@ -1,13 +1,14 @@
 class EntriesController < ApplicationController
-  before_action :set_entry, only: %i[ show edit update destroy ]
+  before_action :set_entry, only: [ :show, :edit, :update, :destroy ]
 
   # GET /entries or /entries.json
   def index
-    @entries = Entry.all
+    @entries = Entry.where("created_at >= ?", Date.today )
   end
 
   # GET /entries/1 or /entries/1.json
-  def show; end
+  def show
+  end
 
   # GET /entries/new
   def new
@@ -15,7 +16,8 @@ class EntriesController < ApplicationController
   end
 
   # GET /entries/1/edit
-  def edit; end
+  def edit
+  end
 
   # POST /entries or /entries.json
   def create

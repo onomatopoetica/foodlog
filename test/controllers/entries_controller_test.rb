@@ -40,7 +40,7 @@ class EntriesControllerTest < ActionDispatch::IntegrationTest
 
   test "should destroy entry" do
     assert_difference("Entry.count", -1) do
-      delete entry_url(@entry)
+      destroy entry_url(@entry)
     end
 
     assert_redirected_to entries_url
