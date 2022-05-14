@@ -22,13 +22,10 @@
       </div>
     </nav>
     <div class="buttons">
-      <%# <div class="column"> %>
-      <%= link_to "Edit", edit_entry_path(@entry), class: "button is-gray" %>
-      <%= link_to "Destroy", entry_path(@entry), method: :destroy, data: { confirm: "Are you sure?" }, class: "button is-gray" %>
-      <%# </div> %>
-      <div class="column">
-        <!-- -->
-      </div>
+      <div class="panel-block pl-0">
+      <%= link_to "Edit", edit_entry_path(@entry), class: "button is-gray" %> 
+      <%= button_to "Destroy", entry_path(@entry), method: :delete, class: "button is-gray" %>
+    </div>
     </div>
   </div>
 </div>
