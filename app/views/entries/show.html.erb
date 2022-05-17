@@ -23,9 +23,9 @@
     </nav>
     <div class="buttons">
       <div class="panel-block pl-0">
-      <%= link_to "Edit", edit_entry_path(@entry), class: "button is-gray" %> 
-      <%= button_to "Destroy", entry_path(@entry), method: :delete, class: "button is-gray" %>
-    </div>
+        <%= link_to "Edit", edit_entry_path(@entry), class: "button is-link" %>
+        <%= button_to "Destroy", entry_path(@entry), method: :delete, class: "button is-link" %>
+      </div>
     </div>
   </div>
 </div>
