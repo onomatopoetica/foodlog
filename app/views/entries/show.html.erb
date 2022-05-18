@@ -6,7 +6,8 @@
     <nav class="panel is-link">
       <p class="panel-heading">
         Meal Type:
-        <%= @entry.meal_type %>
+        <%= @entry.meal_type %> &ndash;
+        <%= @entry.category.title %>
       </p>
       <div class="panel-block">
         Calories: <%= @entry.calories %>

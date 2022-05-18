@@ -33,7 +33,13 @@
     <%= form.label :fats, class: "label" %>
     <%= form.number_field :fats, class: "input" %>
   </div>
+  <div class="field">
+    <%= form.label :category_id, class: "label" %>
+    <div class="select">
+      <%= form.select :category_id, Category.all.collect {|u| [u.title, u.id]} %>
+    </div>
+  </div>
   <div class="actions">
-    <%= form.submit class: "button is-success"  %>
+    <%= form.submit class: "button is-success mt-4 mb-6"  %>
   </div>
 <% end %>
