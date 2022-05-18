@@ -22,7 +22,6 @@ class EntriesTest < ApplicationSystemTestCase
     click_on "Create Entry"
 
     assert_text "Entry was successfully created"
-    # click_on "Back"
   end
 
   test "should update Entry" do
@@ -39,10 +38,10 @@ class EntriesTest < ApplicationSystemTestCase
     assert_text "Entry was successfully updated"
   end
 
-  # test "should destroy Entry" do
-  #   visit entry_url(@entry)
-  #   click_on "Destroy", match: :first
-
-    # assert_text "Entry was successfully destroyed"
-  # end
+  test "should destroy Entry" do
+    visit entry_url(@entry)
+    click_on "Destroy", match: :first
+    
+    assert_text "Entry was successfully destroyed"
+  end
 end
