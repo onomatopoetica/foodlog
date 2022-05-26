@@ -23,9 +23,9 @@
       </div>
     </nav>
     <div class="buttons">
-      <div class="panel-block pl-0">
+      <div class="panel-block is-centered pl-0">
         <%= link_to "Edit", edit_entry_path(@entry), class: "button is-link" %>
-        <%= button_to "Destroy", entry_path(@entry), method: :delete, class: "button is-link" %>
+        <%= button_to "Destroy", entry_path(@entry), method: :delete, form: { data: { turbo_confirm: 'Are you sure?' }}, class: "button mx-1 is-link" %>
       </div>
     </div>
   </div>
